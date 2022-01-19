@@ -1,0 +1,211 @@
+.nav-contents {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.logo {
+	width: 120px;
+	margin-left: 15rem;
+	margin-right: 15rem;
+}
+.nav-link {
+	font-size: 20px;
+	font-weight: 500;
+	color: #6177b0;
+}
+.nav-mar {
+	margin-left: 1rem;
+}
+.nav {
+	padding-top: 3rem;
+}
+.nav-item {
+	padding-top: 1rem;
+}
+.header {
+	text-align: center;
+	margin-top: 3rem;
+}
+.header-text {
+	color: #515e82;
+}
+.header-sub {
+	margin-top: 2rem;
+	font-size: 30px;
+	color: #515e82;
+	font-weight: 100;
+	width: 100%;
+	height: auto;
+}
+.banner {
+	width: 90%;
+  	height: auto;
+  	margin-left: 3rem;
+}
+.header-img {
+	margin-top: 2rem;
+}
+
+
+.walletheader {
+	font-size: 35px;
+	font-weight: 100;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+.wallettext {
+	font-size: 17px;
+	opacity: 70%;
+	margin-right: 2rem;
+}
+.mobilew {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.funders {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5rem;
+}
+.question {
+	font-size: 25px;
+	font-weight: 100;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+.icon {
+	width: 70%;
+	filter: grayscale(100%);
+}
+.icon1 {
+	width: 70%;
+	filter: grayscale(100%);
+  	height: auto;
+}
+.icon-list {
+	text-align: center;
+	margin-top: 4rem;
+}
+.last {
+	margin-bottom: 7rem;
+}
+
+
+
+
+
+ /* WALLET CSS */
+
+.img-fluid {
+ 	width: 70%;
+}
+.wallets-text {
+	font-weight: bold;
+	text-decoration: none !important;
+	margin-top: 2rem;
+}
+.box {
+	margin-top: 3rem;
+}
+a {
+	text-decoration: none;
+}
+.wallets-text1 {
+	font-size: 35px;
+	color: #515e82;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 4rem;
+	opacity: 70%;
+}
+.wallets-text2{
+	text-align: center;
+	opacity: 60%;
+	margin-top: 3rem;
+	font-size: 18px;
+}
+.bi {
+	margin-right: 10px;
+}
+span {
+	margin-left: 10px;
+}
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.footer-item {
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	color: #000;
+	font-size: 18px;
+}
+
+
+ /* TABLET */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+  		width: 120px;
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+	nav {
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+ 
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+	.logo {
+		width: 70px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	nav {
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	.nav-mar {
+		margin-left: -1.2rem;
+	}
+	.nav-link {
+	font-size: 18px;
+	font-weight: 500;
+	color: #6889b0;
+	}
+	.nav {
+	padding-top: 1rem;
+	}
+	.wallettext {
+		margin-right: 1rem;
+		color: #333438;
+		opacity: 60% !important;
+	}
+	.walletheader {
+		font-weight: 400;
+		color: #515e82;
+	}
+	.maintexts {
+		margin-left: 1rem;
+	}
+	.header-img {
+		margin-left: 1rem;
+	}
+	.icon1 {
+		width: 30%;
+		filter: grayscale(100%);
+	}
+	.wallets-text {
+		font-size: 22px;
+	}
+	.banner {
+		margin-left: 1rem;
+	}
+}
