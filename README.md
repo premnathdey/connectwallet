@@ -1,2 +1,1 @@
-# connectwallet
-Connect Wallet Website
+# connectWallet
